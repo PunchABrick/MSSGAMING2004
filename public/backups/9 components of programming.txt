@@ -1,0 +1,20 @@
+9. Components of Programming
+
+1. Input - Keyboard, touch screen, mouse, joystick...
+    Output - Screen, audio, vibration,
+
+2. Storage locations are called - variables -  they can change 
+
+3. Decisions.  "if" statements
+     if (x <= 15) {hit object}
+
+4. loops    constantly increases a variable until some stopping point 
+for {x=0; x < 100; x++){ do something }
+
+5. Arrays - fancy numbered variables. 
+x[1] = 5
+x[2] = "hello"
+x[3] = "mr. Jones"
+
+
+grasshopper learn to code
