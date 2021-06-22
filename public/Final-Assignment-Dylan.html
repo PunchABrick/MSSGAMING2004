@@ -68,7 +68,7 @@ if (parseInt(document.getElementById('mySpan01').style.top) -5  > window.innerHe
 
   if(myHitOther('mySpan01', 'mySpan04')){
     document.getElementById('mySpan04').style.left = '-400px'
-    alert('You Lose!')
+    alert('You have won, continue playing forever')
     location = 'Final-Assignment-Dylan.html'
   }
 
@@ -133,8 +133,9 @@ document.myXtimer = setInterval( myXAuto , document.myXspeed);
 <img src="pipe.png" width=150 height=500>
     </span><br>
 
-<span title="4"  id="mySpan04" style="position:absolute; left:1100; top:150; width:45; height:30"> 
-   Span 4 </span><br>
+<span title="4"  id="mySpan04" style="position:absolute; left:1300; top:150; width:45; height:30"> 
+   <img src="win.png" width=75>
+    </span><br>
 
 <html>
 <head>
